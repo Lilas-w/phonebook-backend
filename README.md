@@ -1,8 +1,7 @@
-## 难点
 使用express库，```npm install express```<br>
-更改package.json中的scripts，以命令 npm start 启动应用。<br>
-以npm run dev运行应用，使用nodemon监视文件更改，更改保存到源代码中的文件时自动重启服务器 ```npm install --save-dev nodemon```<br>
-使用 VS Code REST client 插件测试<br>
+npm start 启动应用。<br>
+npm run dev 在生产环境下启动应用，用nodemon监视文件更改，更改保存到源代码中的文件时自动重启服务器 ```npm install --save-dev nodemon```<br>
+使用 VS Code REST client 插件测试请求<br>
 
 请求单个资源时，id 变量是字符串 ，而data的 id 是整数，返回404 Not Found。 对请求的参数中的id使用Number()方法。<br>
 
